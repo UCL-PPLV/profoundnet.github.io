@@ -1,0 +1,57 @@
+.talk {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.talk h3 {
+    margin: 0;
+    padding-top: 5px;
+}
+
+.talk h3 .paper {
+    font-weight: normal;
+}
+
+.talk table {
+    border-collapse: collapse;
+    margin-left: 10px;
+}
+
+.talk th {
+    font-weight: normal;
+    text-align: left;
+}
+
+.talk tr:first-child {
+    border-bottom: 1px solid black;
+}
+
+.talk .abstract {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-style: italic;
+    hyphens: auto;
+    overflow-wrap: break-word;
+    text-justify: auto;
+}
+
+.talk td,
+.talk th {
+    padding: 5px;
+}
+
+.talk td.date {
+    width: 100px;
+}
+
+.talk td.speaker {
+    width: 150px;
+}
+
+.talk td.venue {
+    width: 440px;
+}
+
+.talk td.links {
+    width: 240px;
+}

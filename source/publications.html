@@ -1,0 +1,37 @@
+---
+layout: default
+title: Publications
+id: publications
+style: true
+---
+{%- for publication in site.data.publications %}
+<div class="publication targetable" id="publication-{{ publication.id }}">
+    <h3>
+        <span class="title">{{ publication.title }}</span>
+        <span class="venue">
+            {%- if publication.venue.name == 'preprint' %}
+            ({{ publication.venue.name }})
+            {%- else %}
+            (<a href="{{ publication.venue.url }}">{{ publication.venue.name }}</a>)
+            {%- endif %}
+        </span>
+    </h3>
+    <div class="authors">{{ publication.authors | array_to_sentence_string }}</div>
+    <div class="abstract">{{ publication.abstract }}</div>
+    <div class="buttons">
+        {%- if publication.links.arxiv %}
+        <a class="upstream" href="https://arxiv.org/abs/{{ publication.links.arxiv }}">ArXiv: <span class="identifier">{{ publication.links.arxiv }}</span></a>
+        {%- endif %}
+        {%- if publication.links.doi %}
+        <a class="upstream"{% if publication.links.doi != 'pending' %} href="https://doi.org/{{ publication.links.doi }}"{% endif %}>
+            DOI:
+            {%- if publication.links.doi == 'pending' %}
+            <span class="placeholder">pending</span>
+            {%- else %}
+            <span class="identifier">{{ publication.links.doi }}</span>
+            {%- endif %}
+        </a>
+        {%- endif %}
+    </div>
+</div>
+{%- endfor -%}

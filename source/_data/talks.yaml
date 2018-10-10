@@ -1,0 +1,14 @@
+- title: 'SDN-Actors: Modeling and Verification of SDN Programs'
+  id: sdn-actors
+  paper: sdn-actors
+  abstract: >
+    Software-Defined Networking (SDN) is a recent networking paradigm that has become increasingly popular in the last decade.
+    It gives unprecedented control over the global behavior of the network and provides a new opportunity for formal methods.
+    Much work has appeared in the last few years on providing bridges between SDN and verification.
+    This paper advances this research line and provides a link between SDN and traditional work on formal methods for verification of distributed software—actor-based modelling.
+    We show how SDN programs can be seamlessly modelled using actors, and thus existing advanced model checking techniques developed for actors can be directly applied to verify a range of properties of SDN networks, including consistency of flow tables, violation of safety policies, and forwarding loops.
+  venues:
+  - name: FM 2018, Oxford
+    url: http://www.win.tue.nl/~evink/FM2018/
+    date: 17/07/2018
+    speaker: Albert Rubio

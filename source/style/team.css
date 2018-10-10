@@ -1,0 +1,24 @@
+.member {
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    margin-top: 5px;
+    width: 160px;
+}
+
+.member img {
+    max-width: 150px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.member a, 
+.member a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.member .affiliation {
+    font-style: italic;
+    font-size: 12px;
+}

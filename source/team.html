@@ -1,0 +1,19 @@
+---
+layout: default
+title: Team
+id: team
+style: true
+---
+{%- for member in site.data.team %}
+<div class="member">
+    {%- if member.website %}
+    <a href="{{ member.website }}">
+    {%- endif %}
+    <div class="name">{{ member.name }}</div>
+    <img src="images/{{ member.image }}.jpg" />
+    <div class="affiliation">{{ member.affiliation }}</div>
+    {%- if member.website %}
+    </a>
+    {%- endif %}
+</div>
+{%- endfor %}

@@ -1,0 +1,38 @@
+---
+pages:
+- name: about
+  id: index
+- name: team
+  id: team
+- name: publications
+  id: publications
+- name: talks
+  id: talks
+---
+<!doctype html>
+<html>
+    <head>
+        <title>ProFoundNet: Probabilistic Foundations for Networks — {{ page.title }}</title>
+
+        <link rel="stylesheet" href="style/main.css" />
+        {%- if page.style %}
+        <link rel="stylesheet" href="style/{{ page.id }}.css" />
+        {%- endif %}
+
+        <meta name="robots" content="noindex, nofollow, noimageindex" />
+        <meta charset="utf-8" />
+    </head>
+    <body lang="en">
+        <header>
+            <img src="images/logo.png" />
+        </header>
+        <nav>
+        {%- for link in layout.pages %}
+            <a{% if page.id == link.id %} class="active"{% endif %} href="{{ link.id }}.html">{{ link.name | capitalize }}</a>
+        {%- endfor %}
+        </nav>
+        <section id="content">
+{{ content }}
+        </section>
+    </body>
+</html>

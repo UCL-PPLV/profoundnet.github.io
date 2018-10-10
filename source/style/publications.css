@@ -1,0 +1,31 @@
+.publication {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.publication .title {
+    font-weight: bold;
+}
+
+.publication .abstract {
+    font-style: italic;
+    hyphens: auto;
+    overflow-wrap: break-word;
+    text-justify: auto;
+}
+
+.publication h3 {
+    margin: 0;
+}
+
+.publication h3, 
+.publication .authors,
+.publication .buttons,
+.publication .abstract {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.publication h3 .venue {
+    font-weight: normal;
+}
