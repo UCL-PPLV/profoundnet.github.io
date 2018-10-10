@@ -20,11 +20,14 @@ style: true
     <div class="abstract">{{ publication.abstract }}</div>
     <div class="buttons">
         {%- if publication.links.arxiv %}
-        <a class="upstream" href="https://arxiv.org/abs/{{ publication.links.arxiv }}">ArXiv: <span class="identifier">{{ publication.links.arxiv }}</span></a>
+        <a class="upstream" href="https://arxiv.org/abs/{{ publication.links.arxiv }}">
+            <span class="ai ai-arxiv"></span>
+            <span class="identifier">{{ publication.links.arxiv }}</span>
+        </a>
         {%- endif %}
         {%- if publication.links.doi %}
         <a class="upstream"{% if publication.links.doi != 'pending' %} href="https://doi.org/{{ publication.links.doi }}"{% endif %}>
-            DOI:
+            <span class="ai ai-doi"></span>
             {%- if publication.links.doi == 'pending' %}
             <span class="placeholder">pending</span>
             {%- else %}
