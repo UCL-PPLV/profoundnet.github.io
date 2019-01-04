@@ -1,0 +1,38 @@
+- name: Gerco van Heerdt
+  affiliation: University College London
+  image: gerco
+- name: Matteo Sammartino 
+  affiliation: University College London
+  website: https://matteosammartino.wordpress.com/
+  image: matteo
+- name: Stefan Zetzsche
+  affiliation: University College London
+  image: stefan
+- name: Nate Foster
+  affiliation: Cornell University
+  website: http://www.cs.cornell.edu/~jnfoster/
+  image: nate
+- name: Dexter Kozen
+  affiliation: Cornell University
+  website: http://www.cs.cornell.edu/~kozen/
+  image: dexter
+- name: Joshua Moerman
+  affiliation: Radboud University Nijmegen
+  website: https://joshuamoerman.nl/
+  image: joshua
+- name: Tiago Ferreira
+  affiliation: University College London
+  website: https://medium.com/@tiferrei
+  image: tiago
+- name: Loris D'Antoni
+  affiliation: University of Wisconsin-Madison
+  website: http://pages.cs.wisc.edu/~loris/
+  image: loris
+- name: Elvira Albert
+  affiliation: Complutense University of Madrid
+  website: http://costa.fdi.ucm.es/~elvira/
+  image: elvira
+- name: Albert Rubio
+  affiliation: Universitat Politècnica de Catalunya - BarcelonaTech
+  website: http://www.lsi.upc.es/~albert/
+  image: albert

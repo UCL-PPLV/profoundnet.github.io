@@ -1,4 +1,24 @@
-- name: Alexandra Silva
+- name: Alexandra Silva (PI)
   affiliation: University College London
   website: http://www.alexandrasilva.org/
   image: alex
+- name: Paul Brunet
+  affiliation: University College London
+  website: http://paul.brunet-zamansky.fr/
+  image: paul
+- name: Steffen Smolka
+  affiliation: Cornell University
+  website: https://www.cs.cornell.edu/~smolka/
+  image: steffen
+- name: Justin Hsu
+  affiliation: University of Wisconsin-Madison
+  website: https://justinh.su/
+  image: justin
+- name: Fredrik Dahlqvist
+  affiliation: Univeristy College London
+  website: https://fredrikdahlqvist.wordpress.com/
+  image: fredrik
+- name: Tobias Kappé
+  affiliation: University College London
+  website: https://tobias.kap.pe
+  image: tobias
