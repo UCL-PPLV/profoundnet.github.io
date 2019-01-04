@@ -1,4 +1,284 @@
+- title: 'Cantor meets Scott: semantic foundations for probabilistic networks'
+  id: cantor-meets-scott
+  authors:
+  - Steffen Smolka
+  - Praveen Kumar
+  - Nate Foster
+  - Dexter Kozen
+  - Alexandra silva
+  venue:
+    name: 'POPL 2017'
+    url: https://popl17.sigplan.org/
+  links:
+    doi: 10.1145/3009837.3009843
+    arxiv: '1607.05830'
+  when: 17-01
+- title: 'Learning nominal automata'
+  id: learning-nominal-automata
+  authors:
+  - Joshua Moerman
+  - Matteo Sammartino
+  - Alexandra Silva
+  - Bartek Klin
+  - Michał Szynwelski
+  venue:
+    name: 'POPL 2017'
+    url: https://popl17.sigplan.org/
+  links:
+    doi: 10.1145/3009837.3009879
+    arxiv: '1607.06268'
+  when: 17-01
+- title: 'The Positivication of Coalgebraic Logics'
+  id: positivication-of-coalgebraic-logics
+  authors:
+  - Fredrik Dahlqvist
+  - Alexander Kurz
+  venue:
+    name: 'CALCO 2017'
+    url: https://coalg.org/mfps-calco2017/
+  links:
+    doi: 10.4230/LIPIcs.CALCO.2017.9
+    arxiv: '1812.07288'
+  when: 17-06
+- title: 'Coalgebraic completeness-via-canonicity for distributive substructural logics'
+  id: coalgebraic-completeness
+  authors:
+  - Fredrik Dahlqvist
+  - David Pym
+  venue:
+    name: J. LAMP
+    url: https://www.sciencedirect.com/journal/journal-of-logical-and-algebraic-methods-in-programming
+  links:
+    doi: 10.1016/j.jlamp.2017.07.002
+  when: 17-07
+- title: 'Reversible Kleene lattices'
+  id: reversible-kleene-lattices
+  authors:
+  - Paul Brunet
+  venue:
+    name: 'MFCS 2017'
+    url: http://mfcs2017.cs.aau.dk/
+  links:
+    doi: 10.4230/LIPIcs.MFCS.2017.66
+  when: 17-08
+- title: 'CALF: Categorical Automata Learning Framework'
+  id: calf
+  authors:
+  - Gerco van Heerdt
+  - Matteo Sammartino
+  - Alexandra Silva
+  venue:
+    name: 'CSL 2017'
+    url: https://www.math-stockholm.se/konferenser-och-akti/logic-in-stockholm-2/26th-eacsl-annual-co/computer-science-logic-2017-august-20-24-1.717663
+  links:
+    doi: 10.4230/LIPIcs.CSL.2017.29
+    arxiv: '1704.05676'
+  when: 17-08
+- title: 'On Decidability of Concurrent Kleene Algebra'
+  id: decidability-of-cka
+  authors:
+  - Paul Brunet
+  - Damien Pous
+  - Georg Struth
+  venue:
+    name: 'CONCUR 2017'
+    url: https://www.concur2017.tu-berlin.de/
+  links:
+    doi: 10.4230/LIPIcs.CONCUR.2017.28
+  when: 17-09
+- title: 'The Power of Convex Algebras'
+  id: power-of-convex-algebras
+  authors:
+  - Filippo Bonchi
+  - Alexandra Silva
+  - Ana Sokolova
+  venue:
+    name: 'CONCUR 2017'
+    url: https://www.concur2017.tu-berlin.de/
+  links:
+    doi: 10.4230/LIPIcs.CONCUR.2017.23
+    arxiv: '1707.02344'
+  when: 17-09
+- title: 'Brzozowski Goes Concurrent - A Kleene Theorem for Pomset Languages'
+  id: brzozowski-goes-concurrent
+  authors:
+  - Tobias Kappé
+  - Paul Brunet
+  - Bas Luttik
+  - Alexandra Silva
+  - Fabio Zanasi
+  venue:
+    name: 'CONCUR 2017'
+    url: https://www.concur2017.tu-berlin.de/
+  links:
+    doi: 10.4230/LIPIcs.CONCUR.2017.25
+    arxiv: '1704.07199'
+  when: 17-09
+- title: 'Brzozowski Goes Concurrent - A Kleene Theorem for Pomset Languages (Invited Talk)'
+  id: brzozowski-goes-concurrent-talk
+  authors:
+  - Alexandra Silva
+  venue:
+    name: 'FSCD 2017'
+    url: https://www.cs.ox.ac.uk/conferences/fscd2017/
+  links:
+    doi: 10.4230/LIPIcs.FSCD.2017.3
+  when: 17-09
+- title: 'Coinductive Foundations of Infinitary Rewriting and Infinitary Equational Logic'
+  id: coinductive-rewriting
+  authors:
+  - Jörg Endrullis
+  - Helle Hvid Hansen
+  - Dimitri Hendriks
+  - Andrew Polonsky
+  - Alexandra Silva
+  venue:
+    name: 'LMCS'
+    url: https://lmcs.episciences.org/
+  links:
+    doi: 10.23638/LMCS-14(1:3)2018
+    arxiv: '1706.00677'
+  when: 18-01
+- title: 'Proving expected sensitivity of probabilistic programs'
+  id: proving-expected-sensitivity
+  authors:
+  - Gilles Barthe
+  - Thomas Espitau
+  - Benjamin Grégoire
+  - Justin Hsu
+  - Pierre-Yves Strub
+  venue:
+    name: 'POPL 2018'
+    url: https://popl18.sigplan.org/
+  links:
+    doi: 10.1145/3158145
+    arxiv: '1708.02537'
+  when: 18-01
+- title: 'Synthesizing coupling proofs of differential privacy'
+  id: synthesizing-coupling-proofs
+  authors:
+  - Aws Albarghouthi
+  - Justin Hsu
+  venue:
+    name: 'POPL 2018'
+    url: https://popl18.sigplan.org/
+  links:
+    doi: 10.1145/3158146
+    arxiv: '1709.05361'
+  when: 18-01
+- title: 'A coalgebraic treatment of conditional transition systems with upgrades'
+  id: coalgebraic-transition-systems-with-upgrades
+  authors:
+  - Harsh Beohar
+  - Barbara König
+  - Sebastian Küper
+  - Alexandra Silva
+  - Thorsten Wiẞmann
+  venue:
+    name: 'LMCS'
+    url: https://lmcs.episciences.org/
+  links:
+    doi: 10.23638/LMCS-14(1:19)2018
+    arxiv: '1612.05002'
+  when: 18-02
+- title: 'Pointless learning'
+  id: pointless-learning
+  authors:
+  - Florence Clerc
+  - Vincent Danos
+  - Fredrik Dahlqvist
+  - Ilias Garnier
+  venue:
+    name: 'FoSSaCS 2017'
+    url: https://www.etaps.org/2017/fossacs
+  links:
+    doi: 10.1007/978-3-662-54458-7_21
+  when: 18-04
+- title: 'An Assertion-Based Program Logic for Probabilistic Programs'
+  id: assertion-based-probablistic-program-logic
+  authors:
+  - Gilles Barthe
+  - Thomas Espitau
+  - Marco Gaboardi
+  - Benjamin Grégoire
+  - Justin Hsu
+  - Pierre-Yves Strub
+  venue:
+    name: 'ESOP 2018'
+    url: https://www.etaps.org/2018/esop
+  links:
+    doi: 10.1007/978-3-319-89884-1_5
+    arxiv: '1803.05535'
+  when: 18-04
+- title: 'Concurrent Kleene Algebra: Free Model and Completeness'
+  id: concurrent-kleene-algebra-freeness
+  authors:
+  - Tobias Kappé
+  - Paul Brunet
+  - Alexandra Silva
+  - Fabio Zanasi
+  venue:
+    name: 'ESOP 2018'
+    url: https://www.etaps.org/2018/esop
+  links:
+    doi: 10.1007/978-3-319-89884-1_30
+    arxiv: '1710.02787'
+  when: 18-04
+- title: 'Learning to Coordinate'
+  id: learning-to-coordinate
+  authors:
+  - Gerco van Heerdt
+  - Bart Jacobs
+  - Tobias Kappé
+  - Alexandra Silva
+  venue:
+    name: Farhad Arbab festschrift
+    url: https://www.springer.com/us/book/9783319900889
+  links:
+    doi: 10.1007/978-3-319-90089-6_10
+  when: 18-04
+- title: 'Borel Kernels and their Approximation, Categorically'
+  id: borel-kernels-approximation-categorically
+  authors:
+  - Fredrik Dahlqvist
+  - Alexandra Silva
+  - Vincent Danos
+  - Ilias Garnier
+  venue:
+    name: 'MFPS 2018'
+    url: https://www.mathstat.dal.ca/mfps2018/
+  links:
+    doi: 10.1016/j.entcs.2018.11.006
+    arxiv: '1803.02651'
+  when: 18-06
+- title: 'Constraint-Based Synthesis of Coupling Proofs'
+  id: constraint-based-synthesis-coupling-proofs
+  authors:
+  - Aws Albarghouthi
+  - Justin Hsu
+  venue:
+    name: 'CAV 2018'
+    url: http://cavconference.org/2018/
+  links:
+    doi: 10.1007/978-3-319-96145-3_18
+    arxiv: '1804.04052'
+  when: 18-07
+- title: 'Almost Sure Productivity'
+  id: almost-sure-productivity
+  authors:
+  - Alejandro Aguirre
+  - Gilles Barthe
+  - Justin Hsu
+  - Alexandra Silva
+  venue:
+    name: 'ICALP 2018'
+    url: https://iuuk.mff.cuni.cz/~icalp2018/
+  links:
+    doi: 10.4230/LIPIcs.ICALP.2018.113
+    arxiv: '1802.06283'
+  when: 18-07
 - title: 'SDN-Actors: Modeling and Verification of SDN Programs'
+  id: sdn-actors
   authors:
   - Elvira Albert
   - Miguel Gómez-Zamalloa
@@ -11,9 +291,43 @@
   id: sdn-actors
   links:
     doi: 10.1007/978-3-319-95582-7_33
-  abstract: >
-    Software-Defined Networking (SDN) is a recent networking paradigm that has become increasingly popular in the last decade.
-    It gives unprecedented control over the global behavior of the network and provides a new opportunity for formal methods.
-    Much work has appeared in the last few years on providing bridges between SDN and verification.
-    This paper advances this research line and provides a link between SDN and traditional work on formal methods for verification of distributed software—actor-based modelling.
-    We show how SDN programs can be seamlessly modelled using actors, and thus existing advanced model checking techniques developed for actors can be directly applied to verify a range of properties of SDN networks, including consistency of flow tables, violation of safety policies, and forwarding loops.
+  when: 18-07
+- title: 'Decision problems for Clark-congruential languages'
+  id: decision-problems-clark-congruential
+  authors:
+  - Makoto Kanazawa
+  - Tobias Kappé
+  venue:
+    name: 'ICGI 2018'
+    url: http://icgi2018.pwr.edu.pl/
+  links:
+    doi: pending
+    arxiv: '1805.04402'
+  when: 18-09
+- title: 'Convex Language Semantics for Nondeterministic Probabilistic Automata'
+  id: convex-language-semantics-nfa
+  authors:
+  - Gerco van Heerdt
+  - Justin Hsu
+  - Joël Ouaknine
+  - Alexandra Silva
+  venue:
+    name: 'ICTAC 2018'
+    url: https://www.ictac.org.za/
+  links:
+    doi: 10.1007/978-3-030-02508-3_25
+    arxiv: '1805.11550'
+  when: 18-10
+- title: 'Layer by Layer – Combining Monads'
+  id: layer-by-layer
+  authors:
+  - Fredrik Dahlqvist
+  - Louis Parlant
+  - Alexandra Silva
+  venue:
+    name: 'ICTAC 2018'
+    url: https://www.ictac.org.za/
+  links:
+    doi: 10.1007/978-3-030-02508-3_9
+    arxiv: '1712.01113'
+  when: 18-10

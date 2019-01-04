@@ -7,21 +7,14 @@
     font-weight: bold;
 }
 
-.publication .abstract {
-    font-style: italic;
-    hyphens: auto;
-    overflow-wrap: break-word;
-    text-justify: auto;
-}
-
 .publication h3 {
     margin: 0;
+    padding: 0;
+    font-size: inherit;
 }
 
-.publication h3, 
 .publication .authors,
-.publication .buttons,
-.publication .abstract {
+.publication .buttons {
     padding-top: 5px;
     padding-bottom: 5px;
 }

@@ -4,7 +4,8 @@ title: Publications
 id: publications
 style: true
 ---
-{%- for publication in site.data.publications %}
+{%- assign sorted = site.data.publications | sort: 'when' | reverse -%}
+{%- for publication in sorted %}
 <div class="publication targetable" id="publication-{{ publication.id }}">
     <h3>
         <span class="title">{{ publication.title }}</span>
@@ -17,7 +18,6 @@ style: true
         </span>
     </h3>
     <div class="authors">{{ publication.authors | array_to_sentence_string }}</div>
-    <div class="abstract">{{ publication.abstract }}</div>
     <div class="buttons">
         {%- if publication.links.arxiv %}
         <a class="upstream" href="https://arxiv.org/abs/{{ publication.links.arxiv }}">
