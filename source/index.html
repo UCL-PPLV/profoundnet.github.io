@@ -2,9 +2,53 @@
 layout: default
 title: About
 id: index
+style: true
 ---
-<p>Lemon drops marzipan apple pie croissant chocolate cake gummies. Tart jujubes lollipop jujubes marzipan tootsie roll lollipop pudding. Cheesecake gingerbread sweet roll jelly beans. Soufflé toffee chocolate bar danish jelly beans lemon drops ice cream gingerbread pastry. Cookie soufflé biscuit gingerbread wafer. Chocolate cake powder jelly beans liquorice dessert liquorice.</p>
+<p>
+    The central objective of this project is to develop new abstractions for programming of networks, with modular constructs.
+    We will provide rigorous semantic probabilistic foundations, enabling quantitative reasoning, and semantic foundations for concurrency.
+    This will serve as a solid platform for program analysis tools where compositional reasoning about complex interactions will be a reality.
+    These are the main strands of the project:
+</p>
 
-<p>Liquorice sweet biscuit liquorice brownie croissant jujubes. Pie pudding dessert candy canes marshmallow wafer cotton candy tootsie roll icing. Sweet roll cupcake croissant. Cotton candy gummi bears biscuit topping oat cake biscuit danish chocolate bar liquorice. Sweet chocolate cake gingerbread pudding. Muffin oat cake chocolate bar sugar plum. Bear claw jelly danish sesame snaps cheesecake bonbon cake gummi bears.</p>
+<div class="strand">
+    <h2>Probabilistic reasoning</h2>
 
-<p>Jelly sweet roll toffee. Lemon drops gingerbread apple pie pastry liquorice powder sweet roll bear claw toffee. Croissant apple pie cake sweet roll caramels soufflé. Sesame snaps pudding cake. Powder gummi bears chupa chups. Bonbon bear claw cake chupa chups jelly-o. Jujubes cake gummi bears jujubes tart. Bonbon chocolate cake cookie biscuit chupa chups candy. Icing chupa chups candy canes biscuit cheesecake tootsie roll sweet chocolate bar.</p>
+    NetKAT is a domain-specific language that can be used to compositionally specify and verify policies of Software Defined Networks (SDNs).
+    We will work on developing a probabilistic extension – ProbNetKAT.
+    This will enable programming and verification of probabilistic features in SDN, such as:
+    <ul>
+        <li>Is a network resilient up to <em>k</em>-link failure?</li>
+        <li>Can we quantify the degree of resilience versus the increase in latency?</li>
+    </ul>
+
+    We would also like to develop a scalable tool for verifying probabilistic network programs.
+</div>
+
+<div class="strand">
+    <h2>Concurrency</h2>
+    Networks are inherently concurrent systems, for instance when processing a packet using multiple tables simultaneously, or perhaps even multiple devices, such as a firewall and an intrusion detection system.
+
+    We will extend NetKAT with constructs to express and verify concurrency in packet processing.
+    We will need to:
+    <ul>
+        <li>devise syntax and semantics to extend NetKAT proper, and
+        <li>show that we can still express useful properties such as reachability, waypointing and other network properties related to concurrency.
+    </ul>
+
+    We will base our explorations on Concurrent Kleene Algebra (CKA) and try to extend results on soundness and completeness, as well as algorithms for (bi)simulation.
+</div>
+
+<div class="strand">
+    <h2>Verification via model learning</h2>
+    We will explore formally verifying code compiled from a high-level language (such as NetKAT) into hardware.
+    The challenge will be on finding bugs and their source:
+    <ul>
+        <li>Is the compiler introducing the bug? Is the formal semantics of the language unsound?</li>
+        <li>Is the hardware faulty? Is the bug introduced due to concurrent behaviour?</li>
+    </ul>
+
+    We will focus on learning models of basic networking behaviour, such as packet forwarding and filtering.
+    We will explore recent results on categorical automata learning and adapt them to NetKAT.
+    The challenges in this application will be in getting the right balance between the needed information from the network program, hardware, and compiler and what is realistically available to an outside user.
+</div>
