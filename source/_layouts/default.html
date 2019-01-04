@@ -21,7 +21,7 @@ pages:
         {%- if page.style %}
         <link rel="stylesheet" href="style/{{ page.id }}.css" />
         {%- endif %}
-        <link rel="icon" href="/images/icon.png">
+        <link rel="icon" href="images/icon.png">
 
         <meta name="robots" content="noindex, nofollow, noimageindex" />
         <meta charset="utf-8" />
@@ -40,7 +40,7 @@ pages:
         </section>
         <footer>
             {%- for credit in site.data.credits %}
-            <a href="{{ credit.url }}"><img src="/images/{{ credit.image }}"></a>
+            <a href="{{ credit.url }}"><img src="images/{{ credit.image }}"></a>
             {%- endfor %}
         </footer>
     </body>
