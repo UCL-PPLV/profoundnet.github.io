@@ -1,0 +1,16 @@
+---
+layout: default
+title: Visitors
+id: visitors
+style: true
+---
+<ul>
+{%- for visitor in site.data.visitors %}
+    <li class="visit">
+        <span class="names">{{ visitor.who | array_to_sentence_string }}</span> –
+        <span class="affiliation">{{ visitor.affiliation }}</span>;
+        <span class="duration">{{ visitor.when }}</span>
+    </li>
+{%- endfor -%}
+</ul>
+
