@@ -38,5 +38,10 @@ pages:
         <section id="content">
 {{ content }}
         </section>
+        <footer>
+            {%- for credit in site.data.credits %}
+            <a href="{{ credit.url }}"><img src="/images/{{ credit.image }}"></a>
+            {%- endfor %}
+        </footer>
     </body>
 </html>

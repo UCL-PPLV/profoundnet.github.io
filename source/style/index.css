@@ -1,11 +1,12 @@
 .strand {
-    float: left;
     width: 30%;
     padding: 10px;
     background: lightgrey;
     border-radius: 10px;
-    margin: 6px;
+    margin: 4px;
     background-color: #d9eef7;
+    display: inline-block;
+    vertical-align: top;
 }
 
 p, .strand {
