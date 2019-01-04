@@ -1,0 +1,13 @@
+---
+layout: default
+title: Related projects
+id: related
+style: true
+---
+<div id="projects">
+    {%- for rel in site.data.related %}
+    <div class="project">
+        <a href="{{ rel.url }}"><img src="/images/{{ rel.image }}"></a>
+    </div>
+    {%- endfor -%}
+</div>

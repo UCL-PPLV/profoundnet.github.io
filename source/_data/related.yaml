@@ -1,0 +1,6 @@
+- name: CALF
+  url: https://www.calf-project.org/
+  image: calf.png
+- name: CoNeCo
+  url: https://coneco-project.org/
+  image: coneco.png

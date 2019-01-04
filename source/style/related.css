@@ -1,0 +1,14 @@
+#projects {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.project {
+    display: inline-block;
+    margin: 20px;
+}
+
+.project > img {
+    height: 150px;
+}
