@@ -301,7 +301,7 @@
     name: 'ICGI 2018'
     url: http://icgi2018.pwr.edu.pl/
   links:
-    doi: pending
+    mlr: v93/kanazawa19a
     arxiv: '1805.04402'
   when: 18-09
 - title: 'Convex Language Semantics for Nondeterministic Probabilistic Automata'
