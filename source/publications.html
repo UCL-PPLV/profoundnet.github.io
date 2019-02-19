@@ -35,6 +35,12 @@ style: true
             {%- endif %}
         </a>
         {%- endif %}
+        {%- if publication.links.mlr %}
+        <a class="upstream" href="http://proceedings.mlr.press/{{ publication.links.mlr }}">
+            <span class="fas fa-scroll"></span>
+            <span class="identifier">{{ publication.links.mlr }}</span>
+        </a>
+        {%- endif %}
     </div>
 </div>
 {%- endfor -%}
