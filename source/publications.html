@@ -41,6 +41,12 @@ style: true
             <span class="identifier">{{ publication.links.mlr }}</span>
         </a>
         {%- endif %}
+        {%- if publication.links.ucl %}
+        <a class="upstream" href="http://discovery.ucl.ac.uk/{{ publication.links.ucl }}">
+            <span class="ai ai-open-access"></span>
+            <span class="identifier">UCL/{{ publication.links.ucl }}</span>
+        </a>
+        {%- endif %}
     </div>
 </div>
 {%- endfor -%}
