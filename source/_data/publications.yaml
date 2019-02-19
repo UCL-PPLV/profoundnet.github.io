@@ -12,6 +12,7 @@
   links:
     doi: 10.1145/3009837.3009843
     arxiv: '1607.05830'
+    ucl: '1523338'
   when: 17-01
 - title: 'Learning nominal automata'
   id: learning-nominal-automata
@@ -27,6 +28,7 @@
   links:
     doi: 10.1145/3009837.3009879
     arxiv: '1607.06268'
+    ucl: '1523337'
   when: 17-01
 - title: 'The Positivication of Coalgebraic Logics'
   id: positivication-of-coalgebraic-logics
@@ -39,6 +41,7 @@
   links:
     doi: 10.4230/LIPIcs.CALCO.2017.9
     arxiv: '1812.07288'
+    ucl: '10064489'
   when: 17-06
 - title: 'Coalgebraic completeness-via-canonicity for distributive substructural logics'
   id: coalgebraic-completeness
@@ -50,6 +53,7 @@
     url: https://www.sciencedirect.com/journal/journal-of-logical-and-algebraic-methods-in-programming
   links:
     doi: 10.1016/j.jlamp.2017.07.002
+    ucl: '10045065'
   when: 17-07
 - title: 'Reversible Kleene lattices'
   id: reversible-kleene-lattices
@@ -60,6 +64,7 @@
     url: http://mfcs2017.cs.aau.dk/
   links:
     doi: 10.4230/LIPIcs.MFCS.2017.66
+    ucl: '10053897'
   when: 17-08
 - title: 'CALF: Categorical Automata Learning Framework'
   id: calf
@@ -73,6 +78,7 @@
   links:
     doi: 10.4230/LIPIcs.CSL.2017.29
     arxiv: '1704.05676'
+    ucl: '10027871'
   when: 17-08
 - title: 'On Decidability of Concurrent Kleene Algebra'
   id: decidability-of-cka
@@ -85,6 +91,7 @@
     url: https://www.concur2017.tu-berlin.de/
   links:
     doi: 10.4230/LIPIcs.CONCUR.2017.28
+    ucl: '10053782'
   when: 17-09
 - title: 'The Power of Convex Algebras'
   id: power-of-convex-algebras
@@ -98,6 +105,7 @@
   links:
     doi: 10.4230/LIPIcs.CONCUR.2017.23
     arxiv: '1707.02344'
+    ucl: '10027982'
   when: 17-09
 - title: 'Brzozowski Goes Concurrent - A Kleene Theorem for Pomset Languages'
   id: brzozowski-goes-concurrent
@@ -113,6 +121,7 @@
   links:
     doi: 10.4230/LIPIcs.CONCUR.2017.25
     arxiv: '1704.07199'
+    ucl: '1561446'
   when: 17-09
 - title: 'Brzozowski Goes Concurrent - A Kleene Theorem for Pomset Languages (Invited Talk)'
   id: brzozowski-goes-concurrent-talk
@@ -138,6 +147,7 @@
   links:
     doi: 10.23638/LMCS-14(1:3)2018
     arxiv: '1706.00677'
+    ucl: '10061161'
   when: 18-01
 - title: 'Proving expected sensitivity of probabilistic programs'
   id: proving-expected-sensitivity
@@ -180,6 +190,7 @@
   links:
     doi: 10.23638/LMCS-14(1:19)2018
     arxiv: '1612.05002'
+    ucl: '10061152'
   when: 18-02
 - title: 'Pointless learning'
   id: pointless-learning
@@ -193,6 +204,7 @@
     url: https://www.etaps.org/2017/fossacs
   links:
     doi: 10.1007/978-3-662-54458-7_21
+    ucl: '10064377'
   when: 18-04
 - title: 'An Assertion-Based Program Logic for Probabilistic Programs'
   id: assertion-based-probablistic-program-logic
@@ -223,6 +235,7 @@
   links:
     doi: 10.1007/978-3-319-89884-1_30
     arxiv: '1710.02787'
+    ucl: '10047906'
   when: 18-04
 - title: 'Learning to Coordinate'
   id: learning-to-coordinate
@@ -250,6 +263,7 @@
   links:
     doi: 10.1016/j.entcs.2018.11.006
     arxiv: '1803.02651'
+    ucl: '10064296'
   when: 18-06
 - title: 'Constraint-Based Synthesis of Coupling Proofs'
   id: constraint-based-synthesis-coupling-proofs
@@ -276,6 +290,7 @@
   links:
     doi: 10.4230/LIPIcs.ICALP.2018.113
     arxiv: '1802.06283'
+    ucl: '10056434'
   when: 18-07
 - title: 'SDN-Actors: Modeling and Verification of SDN Programs'
   id: sdn-actors
@@ -291,6 +306,7 @@
   id: sdn-actors
   links:
     doi: 10.1007/978-3-319-95582-7_33
+    ucl: 10060372
   when: 18-07
 - title: 'Decision problems for Clark-congruential languages'
   id: decision-problems-clark-congruential
@@ -317,6 +333,7 @@
   links:
     doi: 10.1007/978-3-030-02508-3_25
     arxiv: '1805.11550'
+    ucl: '10061791'
   when: 18-10
 - title: 'Layer by Layer – Combining Monads'
   id: layer-by-layer
@@ -330,6 +347,7 @@
   links:
     doi: 10.1007/978-3-030-02508-3_9
     arxiv: '1712.01113'
+    ucl: '10061790'
   when: 18-10
 - title: 'On series-parallel pomset languages: Rationality, context-freeness and automata'
   id: on-sp-pomset-languages
@@ -345,4 +363,5 @@
   links:
     doi: 10.1016/j.jlamp.2018.12.001
     arxiv: '1811.10401'
+    ucl: '10063259'
   when: 18-12
