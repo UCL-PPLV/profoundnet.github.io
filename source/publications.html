@@ -25,14 +25,10 @@ style: true
             <span class="identifier">{{ publication.links.arxiv }}</span>
         </a>
         {%- endif %}
-        {%- if publication.links.doi %}
-        <a class="upstream"{% if publication.links.doi != 'pending' %} href="https://doi.org/{{ publication.links.doi }}"{% endif %}>
-            <span class="ai ai-doi"></span>
-            {%- if publication.links.doi == 'pending' %}
-            <span class="placeholder">pending</span>
-            {%- else %}
-            <span class="identifier">{{ publication.links.doi }}</span>
-            {%- endif %}
+        {%- if publication.links.ucl %}
+        <a class="upstream" href="http://discovery.ucl.ac.uk/{{ publication.links.ucl }}">
+            <span class="ai ai-open-access"></span>
+            <span class="identifier">UCL/{{ publication.links.ucl }}</span>
         </a>
         {%- endif %}
         {%- if publication.links.mlr %}
@@ -41,10 +37,14 @@ style: true
             <span class="identifier">{{ publication.links.mlr }}</span>
         </a>
         {%- endif %}
-        {%- if publication.links.ucl %}
-        <a class="upstream" href="http://discovery.ucl.ac.uk/{{ publication.links.ucl }}">
-            <span class="ai ai-open-access"></span>
-            <span class="identifier">UCL/{{ publication.links.ucl }}</span>
+        {%- if publication.links.doi %}
+        <a class="upstream"{% if publication.links.doi != 'pending' %} href="https://doi.org/{{ publication.links.doi }}"{% endif %}>
+            <span class="ai ai-doi"></span>
+            {%- if publication.links.doi == 'pending' %}
+            <span class="placeholder">pending</span>
+            {%- else %}
+            <span class="identifier">{{ publication.links.doi }}</span>
+            {%- endif %}
         </a>
         {%- endif %}
     </div>
