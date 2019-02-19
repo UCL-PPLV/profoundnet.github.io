@@ -331,3 +331,18 @@
     doi: 10.1007/978-3-030-02508-3_9
     arxiv: '1712.01113'
   when: 18-10
+- title: 'On series-parallel pomset languages: Rationality, context-freeness and automata'
+  id: on-sp-pomset-languages
+  authors:
+  - Tobias Kappé
+  - Paul Brunet
+  - Bas Luttik
+  - Alexandra Silva
+  - Fabio Zanasi
+  venue:
+    name: J. LAMP
+    url: https://www.sciencedirect.com/journal/journal-of-logical-and-algebraic-methods-in-programming
+  links:
+    doi: 10.1016/j.jlamp.2018.12.001
+    arxiv: '1811.10401'
+  when: 18-12
