@@ -1,3 +1,6 @@
 [submodule "academicons"]
 	path = build/vendor/academicons
 	url = https://github.com/jpswalsh/academicons
+[submodule "build/vendor/font-awesome"]
+	path = build/vendor/font-awesome
+	url = https://github.com/FortAwesome/Font-Awesome
