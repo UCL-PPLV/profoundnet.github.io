@@ -29,6 +29,7 @@
     doi: 10.1145/3009837.3009879
     arxiv: '1607.06268'
     ucl: '1523337'
+    radboud: '173206'
   when: 17-01
 - title: 'The Positivication of Coalgebraic Logics'
   id: positivication-of-coalgebraic-logics
