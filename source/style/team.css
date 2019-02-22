@@ -13,8 +13,8 @@
     border-radius: 15px;
 }
 
-.member a, 
-.member a:hover {
+a.member,
+a.member:hover {
     color: black;
     text-decoration: none;
 }

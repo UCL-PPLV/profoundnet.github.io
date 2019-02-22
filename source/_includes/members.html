@@ -1,13 +1,7 @@
 {%- for member in include.members %}
-<div class="member">
-    {%- if member.website %}
-    <a href="{{ member.website }}">
-    {%- endif %}
+<a class="member" {% if member.website %}href="{{ member.website }}"{% endif %}>
     <div class="name">{{ member.name }}</div>
     <img src="images/{{ member.image }}.jpg" />
     <div class="affiliation">{{ member.affiliation }}</div>
-    {%- if member.website %}
-    </a>
-    {%- endif %}
-</div>
+</a>
 {%- endfor %}
