@@ -31,6 +31,12 @@ style: true
             <span class="identifier">UCL/{{ publication.links.ucl }}</span>
         </a>
         {%- endif %}
+        {%- if publication.links.radboud %}
+        <a class="upstream" href="https://hdl.handle.net/2066/{{ publication.links.radboud }}">
+            <span class="ai ai-open-access"></span>
+            <span class="identifier">Radboud/{{ publication.links.radboud }}</span>
+        </a>
+        {%- endif %}
         {%- if publication.links.mlr %}
         <a class="upstream" href="http://proceedings.mlr.press/{{ publication.links.mlr }}">
             <span class="fas fa-scroll"></span>
