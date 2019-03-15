@@ -452,3 +452,13 @@
     arxiv: '1811.10401'
     ucl: '10063259'
   when: 18-12
+- title: 'Semantics of higher-order probabilistic programs with conditioning'
+  id: semantics-higher-order
+  authors:
+  - Fredrik Dahlqvist
+  - Dexter Kozen
+  venue:
+    name: preprint
+  links:
+    arxiv: '1902.11189'
+  when: 19-02
