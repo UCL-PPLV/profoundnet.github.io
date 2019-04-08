@@ -14,14 +14,14 @@ style: true
 <div class="strand">
     <h2>Probabilistic reasoning</h2>
 
-    NetKAT is a domain-specific language that can be used to compositionally specify and verify policies of Software Defined Networks (SDNs).
-    We will work on developing a probabilistic extension – ProbNetKAT.
+    NetKAT is a domain-specific language that can be used to compositionally specify and verify deterministic policies of Software Defined Networks (SDNs).
+    We will work on developing a conservative probabilistic extension of the language – ProbNetKAT.
     This will enable programming and verification of probabilistic features in SDN, such as:
     <ul>
         <li>Is a network resilient up to <em>k</em>-link failure?</li>
         <li>Can we quantify the degree of resilience versus the increase in latency?</li>
     </ul>
-    We will focus on questions related to the semantics of ProbNetKAT and the  program equivalence questions. We would like to use these foundational insights to develop a scalable tool for verifying probabilistic network programs.
+     We will use the foundational insights gained in devising the semantics of ProbNetKAT to develop a scalable tool for verifying probabilistic network programs.
 </div>
 
 <div class="strand">
@@ -32,22 +32,18 @@ style: true
     We will need to:
     <ul>
         <li>devise syntax and semantics to extend NetKAT proper, and
-        <li>show that we can still express useful properties such as reachability, waypointing and other network properties related to concurrency.
+        <li>show that we can still express useful properties such as reachability and waypointing.
     </ul>
 
-    We will base our explorations on Concurrent Kleene Algebra (CKA) and try to extend results on soundness and completeness, as well as algorithms for (bi)simulation.
+    We will base our explorations on Concurrent Kleene Algebra (CKA), extending results on soundness and completeness, as well as algorithms for (bi)simulation.
 </div>
 
 <div class="strand">
     <h2>Verification via model learning</h2>
-    We will explore formally verifying code compiled from a high-level language (such as NetKAT) into hardware.
-    The challenge will be on finding bugs and their source:
+    We will explore formally verifying code compiled from a high-level language into low-level code running on a network.   We will explore recent results on categorical automata learning and use NetKAT to learn models of basic networking behaviour, such as packet forwarding and filtering. The challenge will be on finding bugs and their source:
     <ul>
-        <li>Is the compiler introducing the bug? Is the formal semantics of the language unsound?</li>
+        <li>Is the compiler introducing the bug? Is the semantics unsound?</li>
         <li>Is the hardware faulty? Is the bug introduced due to concurrent behaviour?</li>
     </ul>
-
-    We will focus on learning models of basic networking behaviour, such as packet forwarding and filtering.
-    We will explore recent results on categorical automata learning and adapt them to NetKAT.
-    The challenges in this application will be in getting the right balance between the needed information from the network program, hardware, and compiler and what is realistically available to an outside user.
+    The obstacle in this application will be engineering the interface between the information needed for the learning process and what is available from the network program, hardware, or compiler.
 </div>
