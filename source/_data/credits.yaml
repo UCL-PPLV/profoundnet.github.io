@@ -1,4 +1,6 @@
 - image: erc.png
   url: https://erc.europa.eu/
+  height: 80
 - image: ucl.png
   url: https://www.ucl.ac.uk/
+  height: 70

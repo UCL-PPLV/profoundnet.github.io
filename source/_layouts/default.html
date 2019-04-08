@@ -41,7 +41,7 @@ pages:
         </section>
         <footer>
             {%- for credit in site.data.credits %}
-            <a href="{{ credit.url }}"><img src="images/{{ credit.image }}"></a>
+            <a href="{{ credit.url }}"><img src="images/{{ credit.image }}" height="{{ credit.height }}px"></a>
             {%- endfor %}
         </footer>
     </body>
