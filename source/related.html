@@ -7,7 +7,10 @@ style: true
 <div id="projects">
     {%- for rel in site.data.related %}
     <div class="project">
-        <a href="{{ rel.url }}"><img src="images/{{ rel.image }}"></a>
+        <a href="{{ rel.url }}">
+            <img src="images/{{ rel.image }}" width="{{ rel.width }}px">
+            <span class="name">{{ rel.name }}</span>
+        </a>
     </div>
     {%- endfor -%}
 </div>

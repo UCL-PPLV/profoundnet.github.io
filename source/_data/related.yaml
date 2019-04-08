@@ -1,6 +1,12 @@
 - name: CALF
   url: https://www.calf-project.org/
   image: calf.png
+  width: 200
 - name: CoNeCo
   url: https://coneco-project.org/
   image: coneco.png
+  width: 250
+- name: ProbNetKAT
+  url: http://frenetic-lang.org/probnetkat/
+  image: probnetkat.png
+  width: 200
