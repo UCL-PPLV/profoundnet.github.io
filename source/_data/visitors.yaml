@@ -1,57 +1,70 @@
 - who:
-  - Elvira Albert
-  - Albert Rubio
+  - name: Elvira Albert
+    website: http://costa.fdi.ucm.es/~elvira/
+  - name: Albert Rubio
+    website: http://www.lsi.upc.es/~albert/
   affiliation: Madrid University
   when: 2017-2018 (six-month visit)
 - who:
-  - Renato Neves
+  - name: Renato Neves
+    website: http://alfa.di.uminho.pt/~nevrenato/
   affiliation: Universidade do Minho
   when: 2016
 - who:
-  - Jan Rutten
+  - name: Jan Rutten
+    website: https://homepages.cwi.nl/~janr/
   affiliation: CWI & Radboud University
   when: 2017 (one-month visit)
 - who:
-  - Joshua Moerman
+  - name: Joshua Moerman
+    website: https://joshuamoerman.nl/
   affiliation: Radboud University
   when: 2017 (three-month visit)
 - who:
-  - Bas Luttik
+  - name: Bas Luttik
+    website: https://www.win.tue.nl/~luttik/
   affiliation: Eindhoven University of Technology
   when: February 2017 (three-day visit)
 - who:
-  - Benjamin Kaminski
+  - name: Benjamin Kaminski
+    website: https://moves.rwth-aachen.de/people/kaminski/
   affiliation: Aachen University
   when: 2016-2017 (four-month visit)
 - who:
-  - David Frutos-Escrig
+  - name: David Frutos-Escrig
   affiliation: Madrid University
   when: 2016 (two-week visit)
 - who:
-  - Renato Neves
+  - name: Renato Neves
+    website: http://alfa.di.uminho.pt/~nevrenato/
   affiliation: Universidade do Minho
   when: 2016 (one-month visit).
 - who:
-  - Joshua Moerman
+  - name: Joshua Moerman
+    website: https://joshuamoerman.nl/
   affiliation: Radboud University
   when: 2016 (three-month visit)
 - who:
-  - Bingtian Xue
+  - name: Bingtian Xue
   affiliation: Aalborg University
   when: August 2016 (five-day visit)
 - who:
-  - Luís Soares Barbosa
+  - name: Luís Soares Barbosa
+    website: http://www.di.uminho.pt/~lsb/
   affiliation: University of Minho
   when: June 2016 (ten-day visit)
 - who:
-  - Prakash Panangaden
+  - name: Prakash Panangaden
+    website: https://www.cs.mcgill.ca/~prakash/
   affiliation: McGill University
   when: June 2016 (four-day visit)
 - who:
-  - Jurriaan Rot
+  - name: Jurriaan Rot
+    website: http://jurriaan.me/
   affiliation: ENS Lyon
   when: May 2016 (five-day visit)
 - who:
-  - Frits Vaandrager
+  - name: Frits Vaandrager
+    website: http://www.cs.ru.nl/~fvaan/
   affiliation: Radboud University Nijmegen
   when: February 2016 (five-day visit)
