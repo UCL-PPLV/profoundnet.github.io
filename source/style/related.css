@@ -18,11 +18,3 @@
     vertical-align: middle;
     color: inherit;
 }
-
-.project a:hover {
-    text-decoration: none;
-}
-
-.project a .name {
-    display: block;
-}
