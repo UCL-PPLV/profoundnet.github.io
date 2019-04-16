@@ -1,6 +1,6 @@
 [submodule "_site/assets/academicons"]
-       path = _site/assets/academicons
-       url = https://github.com/jpswalsh/academicons
+    path = assets/academicons
+    url = https://github.com/jpswalsh/academicons
 [submodule "_site/assets/font-awesome"]
-       path = _site/assets/font-awesome
-       url = https://github.com/FortAwesome/Font-Awesome
+    path = assets/font-awesome
+    url = https://github.com/FortAwesome/Font-Awesome
