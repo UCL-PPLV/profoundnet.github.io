@@ -1,3 +1,0 @@
-source: source
-destination: build
-keep_files: [vendor]

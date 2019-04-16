@@ -1,0 +1,26 @@
+.strand {
+    width: 30%;
+    padding: 10px;
+    background: lightgrey;
+    border-radius: 10px;
+    margin: 4px;
+    background-color: #d9eef7;
+    display: inline-block;
+    vertical-align: top;
+}
+
+p, .strand {
+    word-wrap: auto;
+    text-align: justify;
+    hyphens: auto;
+}
+
+.strand > h2 {
+    font-size: inherit;
+    margin-top: 0;
+}
+
+.strand ul {
+    margin-top: .5em;
+    padding-left: 20px;
+}

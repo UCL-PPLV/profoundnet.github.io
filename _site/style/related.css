@@ -1,0 +1,20 @@
+#projects {
+    text-align: center;
+}
+
+.project {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project img {
+    margin-bottom: 20px;
+}
+
+.project a {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+    color: inherit;
+}
