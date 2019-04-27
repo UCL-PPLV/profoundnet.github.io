@@ -462,3 +462,31 @@
   links:
     arxiv: '1902.11189'
   when: 19-02
+- title: 'Tree Automata as Algebras: Minimisation and Determinisation'
+  id: tree-automata-as-algebras
+  authors:
+  - Gerco van Heerdt
+  - Tobias Kappé
+  - Jurriaan Rot
+  - Matteo Sammartino
+  - Alexandra Silva
+  venue:
+    name: preprint
+  links:
+    arxiv: '1904.08802'
+  when: 19-04
+- title: 'Scalable Verification of Probabilistic Networks'
+  id: scalable-verification
+  authors:
+  - Steffen Smolka
+  - Praveen Kumar
+  - David M. Kahn
+  - Nate Foster
+  - Justin Hsu
+  - Dexter Kozen
+  - Alexandra Silva
+  venue:
+    name: preprint
+  links:
+    arxiv: '1904.08096'
+  when: 19-04
