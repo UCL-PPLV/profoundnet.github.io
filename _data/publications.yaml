@@ -491,3 +491,16 @@
   links:
     arxiv: '1904.08096'
   when: 19-04
+- title: 'A (co)algebraic theory of succinct automata'
+  id: succinct-automata
+  authors:
+  - Gerco van Heerdt
+  - Joshua Moerman
+  - Matteo Sammartino
+  - Alexandra Silva
+  venue:
+    name: J. LAMP
+    url: https://www.sciencedirect.com/journal/journal-of-logical-and-algebraic-methods-in-programming
+  links:
+    doi: 10.1016/j.jlamp.2019.02.008
+  when: 19-05
