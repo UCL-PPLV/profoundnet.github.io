@@ -476,21 +476,6 @@
   links:
     arxiv: '1904.08802'
   when: 19-04
-- title: 'Scalable Verification of Probabilistic Networks'
-  id: scalable-verification
-  authors:
-  - Steffen Smolka
-  - Praveen Kumar
-  - David M. Kahn
-  - Nate Foster
-  - Justin Hsu
-  - Dexter Kozen
-  - Alexandra Silva
-  venue:
-    name: preprint
-  links:
-    arxiv: '1904.08096'
-  when: 19-04
 - title: 'A (co)algebraic theory of succinct automata'
   id: succinct-automata
   authors:
@@ -505,3 +490,20 @@
     doi: 10.1016/j.jlamp.2019.02.008
     arxiv: '1905.05519'
   when: 19-05
+- title: 'Scalable Verification of Probabilistic Networks'
+  id: scalable-verification
+  authors:
+  - Steffen Smolka
+  - Praveen Kumar
+  - David M. Kahn
+  - Nate Foster
+  - Justin Hsu
+  - Dexter Kozen
+  - Alexandra Silva
+  venue:
+    name: PLDI
+    url: https://pldi19.sigplan.org/
+  links:
+    arxiv: '1904.08096'
+    doi: '10.1145/3314221.3314639'
+  when: 19-06
