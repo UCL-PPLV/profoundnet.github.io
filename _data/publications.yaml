@@ -507,3 +507,14 @@
     arxiv: '1904.08096'
     doi: '10.1145/3314221.3314639'
   when: 19-06
+- title: 'A Kleene Theorem for Nominal Automata'
+  id: kleene-nominal-automata
+  authors:
+  - Paul Brunet
+  - Alexandra Silva
+  venue:
+    name: ICALP
+    url: https://icalp2019.upatras.gr/
+  links:
+    doi: '10.4230/LIPIcs.ICALP.2019.107'
+  when: 19-07
