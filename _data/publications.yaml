@@ -381,6 +381,7 @@
   links:
     mlr: v93/kanazawa19a
     arxiv: '1805.04402'
+    ucl: '10063347'
   when: 18-09
 - title: 'Convex Language Semantics for Nondeterministic Probabilistic Automata'
   id: convex-language-semantics-nfa
@@ -436,6 +437,7 @@
     name: preprint
   links:
     arxiv: '1811.06968'
+    ucl: '10074295'
   when: 18-11
 - title: 'On series-parallel pomset languages: Rationality, context-freeness and automata'
   id: on-sp-pomset-languages
@@ -489,6 +491,7 @@
   links:
     doi: 10.1016/j.jlamp.2019.02.008
     arxiv: '1905.05519'
+    ucl: '10074294'
   when: 19-05
 - title: 'Scalable Verification of Probabilistic Networks'
   id: scalable-verification
