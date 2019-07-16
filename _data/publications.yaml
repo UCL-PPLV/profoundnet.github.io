@@ -523,3 +523,17 @@
     ucl: '10074295'
     doi: 10.1007/978-3-030-25540-4_1
   when: 19-07
+- title: 'Guarded Kleene Algebra with Tests: Verification of Uninterpreted Programs in Nearly Linear Time'
+  id: gkat
+  authors:
+  - Steffen Smolka
+  - Nate Foster
+  - Justin Hsu
+  - Tobias Kappé
+  - Dexter Kozen
+  - Alexandra Silva
+  venue:
+    name: preprint
+  links:
+    arxiv: 1907.05920
+  when: 19-07
