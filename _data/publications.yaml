@@ -426,19 +426,6 @@
   links:
     arxiv: '1811.10401'
   when: 18-11
-- title: 'Symbolic Register Automata'
-  id: symbolic-register-automata
-  authors:
-  - Loris D'Antoni
-  - Tiago Ferreira
-  - Matteo Sammartino
-  - Alexandra Silva
-  venue:
-    name: preprint
-  links:
-    arxiv: '1811.06968'
-    ucl: '10074295'
-  when: 18-11
 - title: 'On series-parallel pomset languages: Rationality, context-freeness and automata'
   id: on-sp-pomset-languages
   authors:
@@ -520,4 +507,19 @@
     url: https://icalp2019.upatras.gr/
   links:
     doi: '10.4230/LIPIcs.ICALP.2019.107'
+  when: 19-07
+- title: 'Symbolic Register Automata'
+  id: symbolic-register-automata
+  authors:
+  - Loris D'Antoni
+  - Tiago Ferreira
+  - Matteo Sammartino
+  - Alexandra Silva
+  venue:
+    name: CAV 2019
+    url: http://i-cav.org/2019/
+  links:
+    arxiv: '1811.06968'
+    ucl: '10074295'
+    doi: 10.1007/978-3-030-25540-4_1
   when: 19-07
