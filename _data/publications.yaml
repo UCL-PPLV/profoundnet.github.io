@@ -491,7 +491,7 @@
   - Dexter Kozen
   - Alexandra Silva
   venue:
-    name: PLDI
+    name: PLDI 2019
     url: https://pldi19.sigplan.org/
   links:
     arxiv: '1904.08096'
@@ -503,7 +503,7 @@
   - Paul Brunet
   - Alexandra Silva
   venue:
-    name: ICALP
+    name: ICALP 2019
     url: https://icalp2019.upatras.gr/
   links:
     doi: '10.4230/LIPIcs.ICALP.2019.107'
