@@ -535,5 +535,5 @@
   venue:
     name: preprint
   links:
-    arxiv: 1907.05920
+    arxiv: '1907.05920'
   when: 19-07
