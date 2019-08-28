@@ -537,3 +537,16 @@
   links:
     arxiv: '1907.05920'
   when: 19-07
+- title: 'Soft component automata: Composition, compilation, logic, and verification'
+  id: sca
+  authors:
+  - Tobias Kappé
+  - Benjamin Lion
+  - Farhad Arbab
+  - Carolyn Talcott
+  venue:
+    name: J. Sci. Comp. Prog
+    url: https://www.journals.elsevier.com/science-of-computer-programming
+  links:
+    doi: '10.1016/j.scico.2019.08.001'
+  when: 19-08
