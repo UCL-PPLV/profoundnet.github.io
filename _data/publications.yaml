@@ -560,3 +560,15 @@
   links:
     doi: '10.4230/LIPIcs.MFCS.2019.2'
   when: 19-08
+- title: 'Completeness and Incompleteness of Synchronous Kleene Algebra'
+  authors:
+  - Jana Wagemaker
+  - Marcello Bonsangue
+  - Tobias Kappé
+  - Jurriaan Rot
+  - Alexandra Silva
+  venue:
+    name: preprint
+  links:
+    arxiv: 1905.08554
+  when: 19-05
