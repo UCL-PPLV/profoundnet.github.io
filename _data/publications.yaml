@@ -550,3 +550,13 @@
   links:
     doi: '10.1016/j.scico.2019.08.001'
   when: 19-08
+- title: 'Guarded Kleene Algebra with Tests: Verification of Uninterpreted Programs in Nearly Linear Time (Invited Talk)'
+  id: mfcs2019
+  authors:
+  - Alexandra Silva
+  venue:
+    name: MFCS 2019
+    url: https://tcs.rwth-aachen.de/mfcs2019/
+  links:
+    doi: '10.4230/LIPIcs.MFCS.2019.2'
+  when: 27-08
