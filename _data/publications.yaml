@@ -572,3 +572,17 @@
   links:
     arxiv: 1905.08554
   when: 19-05
+- title: 'Tree Automata as Algebras: Minimisation and Determinisation'
+  authors:
+  - Gerco van Heerdt
+  - Tobias Kappé
+  - Jurriaan Rot
+  - Matteo Sammartino
+  - Alexandra Silva
+  venue:
+    name: CALCO 2019
+    url: https://www.coalg.org/calco-mfps-2019/calco/
+  links:
+    arxiv: 1904.08802
+    doi: '10.4230/LIPIcs.CALCO.2019.6'
+  when: 19-06
