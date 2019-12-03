@@ -586,3 +586,14 @@
     arxiv: 1904.08802
     doi: '10.4230/LIPIcs.CALCO.2019.6'
   when: 19-06
+- title: 'Learning Weighted Automata over Principal Ideal Domains'
+  authors:
+  - Gerco van Heerdt
+  - Clemens Kupke
+  - Jurriaan Rot
+  - Alexandra Silva
+  venue:
+    name: preprint
+  links:
+    arxiv: 1911.04404
+  when: 19-11
