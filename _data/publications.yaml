@@ -597,3 +597,12 @@
   links:
     arxiv: 1911.04404
   when: 19-11
+- title: 'An Algebraic Framework to Reason About Concurrency (Invited Talk)'
+  authors:
+  - Alexandra Silva
+  venue:
+    name: 'FSTTCS 2019'
+    url: https://www.fsttcs.org.in/2019/
+  links:
+    doi: 10.4230/LIPIcs.FSTTCS.2019.6
+  when: 19-12
