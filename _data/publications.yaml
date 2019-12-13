@@ -606,3 +606,16 @@
   links:
     doi: 10.4230/LIPIcs.FSTTCS.2019.6
   when: 19-12
+- title: 'Conditional transition systems with upgrades'
+  id: conditional-transition-systems-with-upgrades
+  authors:
+  - Harsh Beohar
+  - Barbara König
+  - Sebastian Küpper
+  - Alexandra Silva
+  venue:
+    name: J. Sci. Comp. Prog
+    url: https://www.journals.elsevier.com/science-of-computer-programming
+  links:
+    doi: '10.1016/j.scico.2019.102320'
+  when: 19-12
