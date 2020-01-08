@@ -619,3 +619,19 @@
   links:
     doi: '10.1016/j.scico.2019.102320'
   when: 19-12
+- title: 'Guarded Kleene Algebra with Tests: Verification of Uninterpreted Programs in Nearly Linear Time'
+  id: gkat
+  authors:
+  - Steffen Smolka
+  - Nate Foster
+  - Justin Hsu
+  - Tobias Kappé
+  - Dexter Kozen
+  - Alexandra Silva
+  venue:
+    name: POPL 2020
+    url: https://popl20.sigplan.org/
+  links:
+    arxiv: '1907.05920'
+    doi: '10.1145/3371129'
+  when: 20-01
