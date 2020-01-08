@@ -635,3 +635,15 @@
     arxiv: '1907.05920'
     doi: '10.1145/3371129'
   when: 20-01
+- title: 'Semantics of Higher-Order Probabilistic Programs with Conditioning'
+  id: ho-cond
+  authors:
+  - Fredrik Dahlqvist
+  - Dexter Kozen
+  venue:
+    name: POPL 2020
+    url: https://popl20.sigplan.org/
+  links:
+    arxiv: '1902.11189'
+    doi: '10.1145/3371125'
+  when: 20-01
