@@ -647,3 +647,16 @@
     arxiv: '1902.11189'
     doi: '10.1145/3371125'
   when: 20-01
+- title: 'A Categorical Framework for Learning Generalised Tree Automata'
+  id: calf-tree
+  authors:
+  - Gerco van Heerdt
+  - Tobias Kappé
+  - Jurriaan Rot
+  - Matteo Sammartino
+  - Alexandra Silva
+  venue:
+    name: preprint
+  links:
+    arxiv: '2001.05786'
+  when: 20-01
