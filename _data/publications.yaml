@@ -55,18 +55,6 @@
     arxiv: '1812.07288'
     ucl: '10064489'
   when: 17-06
-- title: 'Conditional Transition Systems with Upgrades'
-  id: conditional-transition-systems
-  authors:
-  - Harsh Beohar
-  - Barbara König
-  - Sebastian Küpper
-  - Alexandra Silva
-  venue:
-    name: preprint
-  links:
-    arxiv: '1706.02526'
-  when: 17-06
 - title: 'Coalgebraic completeness-via-canonicity for distributive substructural logics'
   id: coalgebraic-completeness
   authors:
@@ -422,10 +410,12 @@
   - Jana Wagemaker
   - Fabio Zanasi
   venue:
-    name: preprint
+    name: 'CONCUR 2019'
+    url: https://event.cwi.nl/concur2019/
   links:
     arxiv: '1811.10401'
-  when: 18-11
+    doi: 10.4230/LIPIcs.CONCUR.2019.41
+  when: 19-08
 - title: 'On series-parallel pomset languages: Rationality, context-freeness and automata'
   id: on-sp-pomset-languages
   authors:
@@ -442,16 +432,6 @@
     arxiv: '1811.10401'
     ucl: '10063259'
   when: 18-12
-- title: 'Semantics of higher-order probabilistic programs with conditioning'
-  id: semantics-higher-order
-  authors:
-  - Fredrik Dahlqvist
-  - Dexter Kozen
-  venue:
-    name: preprint
-  links:
-    arxiv: '1902.11189'
-  when: 19-02
 - title: 'Tree Automata as Algebras: Minimisation and Determinisation'
   id: tree-automata-as-algebras
   authors:
@@ -461,10 +441,13 @@
   - Matteo Sammartino
   - Alexandra Silva
   venue:
-    name: preprint
+    name: CALCO 2019
+    url: https://www.coalg.org/calco-mfps-2019/calco/
   links:
-    arxiv: '1904.08802'
-  when: 19-04
+    arxiv: 1904.08802
+    doi: '10.4230/LIPIcs.CALCO.2019.6'
+    ucl: '10088222'
+  when: 19-06
 - title: 'A (co)algebraic theory of succinct automata'
   id: succinct-automata
   authors:
@@ -523,20 +506,6 @@
     ucl: '10074295'
     doi: 10.1007/978-3-030-25540-4_1
   when: 19-07
-- title: 'Guarded Kleene Algebra with Tests: Verification of Uninterpreted Programs in Nearly Linear Time'
-  id: gkat
-  authors:
-  - Steffen Smolka
-  - Nate Foster
-  - Justin Hsu
-  - Tobias Kappé
-  - Dexter Kozen
-  - Alexandra Silva
-  venue:
-    name: preprint
-  links:
-    arxiv: '1907.05920'
-  when: 19-07
 - title: 'Soft component automata: Composition, compilation, logic, and verification'
   id: sca
   authors:
@@ -568,10 +537,12 @@
   - Jurriaan Rot
   - Alexandra Silva
   venue:
-    name: preprint
+    name: MPC 2019
+    url: http://www.cs.nott.ac.uk/~pszgmh/mpc19.html
   links:
     arxiv: 1905.08554
-  when: 19-05
+    doi: '10.1007/978-3-030-33636-3_14'
+  when: 19-10
 - title: 'Tree Automata as Algebras: Minimisation and Determinisation'
   authors:
   - Gerco van Heerdt
@@ -618,6 +589,7 @@
     url: https://www.journals.elsevier.com/science-of-computer-programming
   links:
     doi: '10.1016/j.scico.2019.102320'
+    arxiv: '1706.02526'
   when: 19-12
 - title: 'Guarded Kleene Algebra with Tests: Verification of Uninterpreted Programs in Nearly Linear Time'
   id: gkat
