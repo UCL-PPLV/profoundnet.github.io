@@ -632,3 +632,15 @@
   links:
     arxiv: '2001.05786'
   when: 20-01
+- title: 'Preservation of Equations by Monoidal Monads'
+  id: monoidal-monads
+  authors:
+  - Louis Parlant
+  - Jurriaan Rot
+  - Alexandra Silva
+  - Bas Westerbaan
+  venue:
+    name: preprint
+  links:
+    arxiv: '2001.06348'
+  when: 20-01
