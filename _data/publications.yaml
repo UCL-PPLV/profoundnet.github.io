@@ -644,3 +644,17 @@
   links:
     arxiv: '2001.06348'
   when: 20-01
+- title: 'Actor-Based Model Checking for SDN Networks'
+  id: actor-based-checking
+  authors:
+  - Elvira Albert
+  - Miguel Gómez-Zamalloa
+  - Miguel Isabel
+  - Albert Rubio
+  - Matteo Sammartino
+  - Alexandra Silva
+  venue:
+    name: preprint
+  links:
+    arxiv: '2001.10022'
+  when: 20-01
