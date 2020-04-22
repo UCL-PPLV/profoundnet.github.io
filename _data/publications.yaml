@@ -557,17 +557,6 @@
     arxiv: 1904.08802
     doi: '10.4230/LIPIcs.CALCO.2019.6'
   when: 19-06
-- title: 'Learning Weighted Automata over Principal Ideal Domains'
-  authors:
-  - Gerco van Heerdt
-  - Clemens Kupke
-  - Jurriaan Rot
-  - Alexandra Silva
-  venue:
-    name: preprint
-  links:
-    arxiv: 1911.04404
-  when: 19-11
 - title: 'An Algebraic Framework to Reason About Concurrency (Invited Talk)'
   authors:
   - Alexandra Silva
@@ -658,3 +647,31 @@
   links:
     arxiv: '2001.10022'
   when: 20-01
+- title: 'Concurrent Kleene Algebra with Observations: from Hypotheses to Completeness'
+  id: ckah
+  authors:
+  - Tobias Kappé
+  - Paul Brunet
+  - Alexandra Silva
+  - Jana Wagemaker
+  - Fabio Zanasi
+  venue:
+    name: FOSSACS 2020
+    url: https://www.etaps.org/2020/fossacs
+  links:
+    doi: '10.1007/978-3-030-45231-5_20'
+    arxiv: '2002.09682'
+  when: 20-04
+- title: 'Learning Weighted Automata over Principal Ideal Domains'
+  authors:
+  - Gerco van Heerdt
+  - Clemens Kupke
+  - Jurriaan Rot
+  - Alexandra Silva
+  venue:
+    name: FOSSACS 2020
+    url: https://www.etaps.org/2020/fossacs
+  links:
+    doi: '10.1007/978-3-030-45231-5_31'
+    arxiv: 1911.04404
+  when: 20-04
