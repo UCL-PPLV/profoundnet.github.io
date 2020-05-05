@@ -415,6 +415,7 @@
   links:
     arxiv: '1811.10401'
     doi: 10.4230/LIPIcs.CONCUR.2019.41
+    ucl: '10088517'
   when: 19-08
 - title: 'On series-parallel pomset languages: Rationality, context-freeness and automata'
   id: on-sp-pomset-languages
@@ -479,6 +480,7 @@
   links:
     arxiv: '1904.08096'
     doi: '10.1145/3314221.3314639'
+    ucl: '10079009'
   when: 19-06
 - title: 'A Kleene Theorem for Nominal Automata'
   id: kleene-nominal-automata
@@ -490,6 +492,7 @@
     url: https://icalp2019.upatras.gr/
   links:
     doi: '10.4230/LIPIcs.ICALP.2019.107'
+    ucl: '10079010'
   when: 19-07
 - title: 'Symbolic Register Automata'
   id: symbolic-register-automata
@@ -518,6 +521,7 @@
     url: https://www.journals.elsevier.com/science-of-computer-programming
   links:
     doi: '10.1016/j.scico.2019.08.001'
+    ucl: '10081003'
   when: 19-08
 - title: 'Guarded Kleene Algebra with Tests: Verification of Uninterpreted Programs in Nearly Linear Time (Invited Talk)'
   id: mfcs2019
@@ -542,6 +546,7 @@
   links:
     arxiv: 1905.08554
     doi: '10.1007/978-3-030-33636-3_14'
+    ucl: '10090952'
   when: 19-10
 - title: 'An Algebraic Framework to Reason About Concurrency (Invited Talk)'
   authors:
@@ -551,6 +556,7 @@
     url: https://www.fsttcs.org.in/2019/
   links:
     doi: 10.4230/LIPIcs.FSTTCS.2019.6
+    ucl: '10088222'
   when: 19-12
 - title: 'Conditional transition systems with upgrades'
   id: conditional-transition-systems-with-upgrades
@@ -581,6 +587,7 @@
   links:
     arxiv: '1907.05920'
     doi: '10.1145/3371129'
+    ucl: '10090950'
   when: 20-01
 - title: 'Semantics of Higher-Order Probabilistic Programs with Conditioning'
   id: ho-cond
@@ -647,6 +654,7 @@
   links:
     doi: '10.1007/978-3-030-45231-5_20'
     arxiv: '2002.09682'
+    ucl: '10096503'
   when: 20-04
 - title: 'Learning Weighted Automata over Principal Ideal Domains'
   authors:
