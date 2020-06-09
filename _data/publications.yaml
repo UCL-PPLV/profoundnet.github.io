@@ -669,3 +669,13 @@
     doi: '10.1007/978-3-030-45231-5_31'
     arxiv: 1911.04404
   when: 20-04
+- title: 'Models of Concurrent Kleene Algebra (Invited Talk)'
+  id: models-of-cka-talk
+  authors:
+  - Alexandra Silva
+  venue:
+    name: 'LPAR 2020'
+    url: https://easychair.org/smart-program/LPAR23/
+  links:
+    doi: 10.29007/qp92
+  when: 20-05
