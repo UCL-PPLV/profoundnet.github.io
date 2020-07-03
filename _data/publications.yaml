@@ -680,6 +680,19 @@
   links:
     doi: 10.29007/qp92
   when: 20-05
+- title: 'Partially Observable Concurrent Kleene Algebra'
+  id: pocka
+  authors:
+  - Jana Wagemaker
+  - Paul Brunet
+  - Simon Docherty
+  - Tobias Kappé
+  - Jurriaan Rot
+  - Alexandra Silva
+  venue:
+    name: 'CONCUR 2020'
+    url: https://concur2020.forsyte.at/
+  when: 20-06
 - title: 'Toward a Uniform Theory of Effectful State Machines'
   id: uniform-effectful
   authors:
