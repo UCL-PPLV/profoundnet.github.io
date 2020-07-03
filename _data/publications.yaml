@@ -679,3 +679,16 @@
   links:
     doi: 10.29007/qp92
   when: 20-05
+- title: 'Toward a Uniform Theory of Effectful State Machines'
+  id: uniform-effectful
+  authors:
+  - Sergey Goncharov
+  - Stefan Milius
+  - Alexandra Silva
+  venue:
+    name: 'ACM Trans. Comp. Logic'
+    url: 'https://dl.acm.org/journal/tocl'
+  links:
+    doi: '10.1145/3372880'
+    arxiv: '1401.5277'
+  when: 20-07
