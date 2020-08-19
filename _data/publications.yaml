@@ -680,6 +680,8 @@
   venue:
     name: 'CONCUR 2020'
     url: https://concur2020.forsyte.at/
+  links:
+    arxiv: '2007.07593'
   when: 20-06
 - title: 'Toward a Uniform Theory of Effectful State Machines'
   id: uniform-effectful
