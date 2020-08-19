@@ -614,18 +614,6 @@
   links:
     arxiv: '2001.05786'
   when: 20-01
-- title: 'Preservation of Equations by Monoidal Monads'
-  id: monoidal-monads
-  authors:
-  - Louis Parlant
-  - Jurriaan Rot
-  - Alexandra Silva
-  - Bas Westerbaan
-  venue:
-    name: preprint
-  links:
-    arxiv: '2001.06348'
-  when: 20-01
 - title: 'Actor-Based Model Checking for SDN Networks'
   id: actor-based-checking
   authors:
@@ -706,3 +694,17 @@
     doi: '10.1145/3372880'
     arxiv: '1401.5277'
   when: 20-07
+- title: 'Preservation of Equations by Monoidal Monads'
+  id: monoidal-monads
+  authors:
+  - Louis Parlant
+  - Jurriaan Rot
+  - Alexandra Silva
+  - Bas Westerbaan
+  venue:
+    name: MFCS
+    url: 'http://mfcs.mff.cuni.cz/2020/'
+  links:
+    doi: '10.4230/LIPIcs.MFCS.2020.77'
+    arxiv: '2001.06348'
+  when: 20-08
