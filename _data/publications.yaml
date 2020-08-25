@@ -710,3 +710,16 @@
     doi: '10.4230/LIPIcs.MFCS.2020.77'
     arxiv: '2001.06348'
   when: 20-08
+- title: 'Learning Automata with Side-Effects'
+  id: learn-side-effects
+  authors:
+  - Gerco van Heerdt
+  - Matteo Sammartino
+  - Alexandra Silva
+  venue:
+    name: CMCS 2020
+    url: 'https://www.coalg.org/cmcs20/'
+  links:
+    doi: '10.1007/978-3-030-57201-3_5'
+    arxiv: '1704.08055'
+  when: 20-08
