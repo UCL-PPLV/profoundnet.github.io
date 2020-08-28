@@ -682,7 +682,8 @@
     url: https://concur2020.forsyte.at/
   links:
     arxiv: '2007.07593'
-  when: 20-06
+    doi: '10.4230/LIPIcs.CONCUR.2020.20'
+  when: 20-08
 - title: 'Toward a Uniform Theory of Effectful State Machines'
   id: uniform-effectful
   authors:
