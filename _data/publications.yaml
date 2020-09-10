@@ -683,6 +683,7 @@
   links:
     arxiv: '2007.07593'
     doi: '10.4230/LIPIcs.CONCUR.2020.20'
+    ucl: '10109360'
   when: 20-08
 - title: 'Toward a Uniform Theory of Effectful State Machines'
   id: uniform-effectful
@@ -710,6 +711,7 @@
   links:
     doi: '10.4230/LIPIcs.MFCS.2020.77'
     arxiv: '2001.06348'
+    ucl: '10109174'
   when: 20-08
 - title: 'Learning Automata with Side-Effects'
   id: learn-side-effects
