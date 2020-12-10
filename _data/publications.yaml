@@ -624,10 +624,12 @@
   - Matteo Sammartino
   - Alexandra Silva
   venue:
-    name: preprint
+    name: J. LAMP
+    url: https://www.sciencedirect.com/journal/journal-of-logical-and-algebraic-methods-in-programming
   links:
     arxiv: '2001.10022'
-  when: 20-01
+    doi: '10.1016/j.jlamp.2020.100617'
+  when: 20-12
 - title: 'Concurrent Kleene Algebra with Observations: from Hypotheses to Completeness'
   id: ckah
   authors:
