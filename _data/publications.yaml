@@ -728,3 +728,17 @@
     doi: '10.1007/978-3-030-57201-3_5'
     arxiv: '1704.08055'
   when: 20-08
+- title: 'Learning Pomset Automata'
+  id: learn-pomset-automata
+  authors:
+  - Gerco van Heerdt
+  - Tobias Kappé
+  - Jurriaan Rot
+  - Alexandra Silva
+  venue:
+    name: FOSSACS 2021
+    url: 'https://etaps.org/2021/fossacs'
+  links:
+    doi: '10.1007/978-3-030-71995-1_26'
+    arxiv: '2102.07504'
+  when: 21-04
